@@ -3,17 +3,23 @@ package com.wisely.highlight_spring4.ch2.el;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+/**
+ * @ClassName: DemoService.java
+ * @Description: éœ€è¢«æ³¨å…¥çš„Bean
+ * @author zhanghu
+ * @date 2019å¹´5æœˆ19æ—¥ ä¸Šåˆ2:30:00
+ */
 @Service
 public class DemoService {
-	@Value("ÆäËûÀàµÄÊôĞÔ") //1
+    @Value("å…¶ä»–ç±»çš„å±æ€§") // 1
     private String another;
 
-	public String getAnother() {
-		return another;
-	}
+    public String getAnother() {
+        return another;
+    }
 
-	public void setAnother(String another) {
-		this.another = another;
-	}
-	
+    public void setAnother(String another) {
+        this.another = another;
+    }
+
 }
