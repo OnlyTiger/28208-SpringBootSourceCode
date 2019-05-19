@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName: Ch522Application.java
- * @Description: 添加测试控制器
+ * @Description: 添加测试控制器。在6.2.2 常规属性配置中有讲到。
  * @author zhanghu
  * @date 2019年5月19日 下午3:17:04
  */
