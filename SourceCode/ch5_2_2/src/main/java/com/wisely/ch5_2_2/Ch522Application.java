@@ -6,22 +6,28 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @ClassName: Ch522Application.java
+ * @Description: 添加测试控制器
+ * @author zhanghu
+ * @date 2019年5月19日 下午3:17:04
+ */
 @RestController
-@SpringBootApplication
+@SpringBootApplication // 开启自动配置
 public class Ch522Application {
-	
-	 @Value("${book.author}")
-	 private String bookAuthor;
-	 @Value("${book.name}")
-	 private String bookName;
-	
-	 @RequestMapping("/")
-	    String index() {
-		
-	        return "book name is:"+bookName+" and book author is:" + bookAuthor;
-	    }
 
-    public static void main(String[] args) { 
+    @Value("${book.author}")
+    private String bookAuthor;
+    @Value("${book.name}")
+    private String bookName;
+
+    @RequestMapping("/")
+    String index() {
+
+        return "book name is:" + bookName + " and book author is:" + bookAuthor;
+    }
+
+    public static void main(String[] args) {
         SpringApplication.run(Ch522Application.class, args);
     }
 }
