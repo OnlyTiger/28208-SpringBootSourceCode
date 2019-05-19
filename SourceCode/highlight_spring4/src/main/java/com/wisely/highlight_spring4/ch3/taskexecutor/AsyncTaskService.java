@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AsyncTaskService {
 
-    @Async // 1、表民该方法是一个异步方法，如果注解在类级别上，则表明该类所有的方法都是异步方法。
+    @Async // 1、表明该方法是一个异步方法，如果注解在类级别上，则表明该类所有的方法都是异步方法。
     public void executeAsyncTask(Integer i) {
         System.out.println("ִ执行异步任务: " + i);
     }
