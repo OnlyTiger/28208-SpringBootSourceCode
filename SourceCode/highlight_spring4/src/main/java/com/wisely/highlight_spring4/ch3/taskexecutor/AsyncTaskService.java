@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @ClassName: AsyncTaskService.java
- * @Description: 任务执行类
+ * @Description: 多线程。异步，任务执行类
  * @author zhanghu
  * @date 2019年5月19日 下午1:43:49
  */

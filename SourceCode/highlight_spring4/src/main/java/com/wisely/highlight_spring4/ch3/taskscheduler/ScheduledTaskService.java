@@ -6,6 +6,12 @@ import java.util.Date;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+/**
+ * @ClassName: ScheduledTaskService.java
+ * @Description: 计划任务
+ * @author zhanghu
+ * @date 2019年5月19日 下午2:41:48
+ */
 @Service
 public class ScheduledTaskService {
 
