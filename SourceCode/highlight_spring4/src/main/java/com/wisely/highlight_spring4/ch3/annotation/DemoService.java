@@ -2,11 +2,17 @@ package com.wisely.highlight_spring4.ch3.annotation;
 
 import org.springframework.stereotype.Service;
 
+/**
+ * @ClassName: DemoService.java
+ * @Description: æ¼”ç¤ºæœåŠ¡Bean
+ * @author zhanghu
+ * @date 2019å¹´5æœˆ19æ—¥ ä¸‹åˆ2:27:33
+ */
 @Service
 public class DemoService {
-	
-	public void outputResult(){
-		System.out.println("´Ó×éºÏ×¢½âÅäÖÃÕÕÑù»ñµÃµÄbean");
-	}
+
+    public void outputResult() {
+        System.out.println("ä»ç»„åˆæ³¨è§£é…ç½®ç…§æ ·è·å¾—çš„bean");
+    }
 
 }
